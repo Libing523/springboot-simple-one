@@ -118,4 +118,12 @@ public class Music4 {
 		tuneAll(orchestra);
 	}
 
+	/**执行结果：
+	 *  Wind.play()MIDDLE_C
+		Percussion.play()MIDDLE_C
+		Stringed.play()MIDDLE_C
+		Brass.play()MIDDLE_C
+		Woodwind.play()MIDDLE_C
+
+	 */
 }
