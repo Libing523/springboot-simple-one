@@ -4,7 +4,7 @@ package polymorphism;
 /**
  * 
     * @ClassName: RTTI
-    * @Description: 向下转型与运行时类型识别
+    * @Description: 8.5.2向下转型与运行时类型识别
     * 向上转型是安全的，基类的不会具有大于导出类的接口，向下转型需要检查，可能出现的异常为：ClassCastException
     * @author lishuaibing
     * @date 2019年11月8日 上午9:30:55
