@@ -25,7 +25,6 @@ public class SetOfInteger {
 			intSet.add(r);
 			intList.add(r);
 		}
-
 		System.out.println(intSet);
 		System.out.println(intList);
 	}
