@@ -27,6 +27,7 @@ class FilterAdapter implements Processor {
 		return filter.name();
 	}
 
+	
 	@Override
 	public Waveform process(Object input) {
 
