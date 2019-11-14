@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * 
  * @ClassName: Shapes
- * @Description: 14.1 类型信息
+ * @Description: 14.1 类型信息 RTTI：在运行时，识别一个对象的类型
  * @author lishuaibing
  * @date 2019年11月14日 上午9:28:42
  *
