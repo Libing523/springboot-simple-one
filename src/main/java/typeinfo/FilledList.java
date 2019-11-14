@@ -1,0 +1,50 @@
+package typeinfo;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * 
+    * @ClassName: FilledList
+    * @Description: 使用泛型语法，存储一个类引用
+    * @author lishuaibing
+    * @date 2019年11月14日 下午2:26:35
+    *
+    * @param <T>
+ */
+class CountedInteger{
+	private static long counter;
+	private final long id = counter++;
+	public String toString() {return Long.toString(id);}
+}
+
+
+
+public class FilledList<T> {
+
+	private Class<T> type;
+	public FilledList(Class<T> type){
+		this.type = type;
+	}
+	
+	public List<T> create(int nElements){
+		List<T> result = new ArrayList<T>();
+		try {
+			for(int i=0;i<nElements;i++)
+				result.add(type.newInstance());
+			
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
+		
+		return result;
+	}
+	
+	public static void main(String[] args) {
+		FilledList<CountedInteger> fl = new FilledList<CountedInteger>(CountedInteger.class);
+		System.out.println(fl.create(15));
+	}
+	/**执行结果：
+	 * [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+	 */
+}
