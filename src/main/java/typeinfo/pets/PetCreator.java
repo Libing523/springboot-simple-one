@@ -5,7 +5,14 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
-
+/**
+ * 
+    * @ClassName: PetCreator
+    * @Description: TODO(这里用一句话描述这个类的作用)
+    * @author lishuaibing
+    * @date 2019年11月19日 上午10:31:10
+    *
+ */
 public abstract class PetCreator {
 
 	private Random random = new Random(47);
