@@ -22,7 +22,7 @@ public class HiddenImplementation {
 	
 	static void callHiddenMethod(Object a,String methodName) throws Exception {
 		Method g = a.getClass().getDeclaredMethod(methodName);
-		g.setAccessible(true);
+		g.setAccessible(true);//设置访问private权限的属性
 		g.invoke(a);
 	}
 }
