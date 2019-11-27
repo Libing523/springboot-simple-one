@@ -1,0 +1,19 @@
+package generics.watercolors;
+
+/**
+ * 
+ * @ClassName: Watercolors
+ * @Description: 使用枚举值 累出水彩画的颜色
+ * @author lishuaibing
+ * @date 2019年11月27日 下午1:49:15
+ *
+ */
+public enum Watercolors {
+
+	// ZINC, LEMON_YELLOW, MEDUM_YELLOW, DEEP_YELLOW, ORANGE, BRILLIANT_RED,
+	// CRIMSON, MAGENTA, POSE_MADDER, VIOLET, CERULEAN_BLUE_HUE, PHTHALO_BLUE,
+	// ULTRAMARINE, COBALT_BLUE_HUE, PERMANENT_GREEN, VIRIDIAN_HUE,SAP_GREEN,
+	// YELLOW_OCHRE, BURNT_SIENNA, RAW_UMBER, BURNT_UMBER, PAYNES_GRAY, IVORY_BLACK;
+	T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23
+
+}
