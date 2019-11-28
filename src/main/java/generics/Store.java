@@ -90,10 +90,8 @@ public class Store extends ArrayList<Aisle> {
 		return result.toString();
 	}
 
-	
 	public static void main(String[] args) {
 		System.out.println(new Store(14, 5, 10));
 	}
-	
-	
+
 }
