@@ -12,6 +12,8 @@ import java.util.LinkedHashMap;
  */
 public class MapData<K, V> extends LinkedHashMap<K, V> {
 
+	private static final long serialVersionUID = 1L;
+
 	public MapData(Generator<Pair<K, V>> gen, int quantity) {
 		for (int i = 0; i < quantity; i++) {
 			Pair<K, V> p = gen.next();
