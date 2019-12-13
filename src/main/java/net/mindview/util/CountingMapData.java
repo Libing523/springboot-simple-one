@@ -62,7 +62,7 @@ public class CountingMapData extends AbstractMap<Integer, String>{
 	}
     
     public static void main(String[] args) {
-		System.out.println(new CountingMapData(60));
+		System.out.println(new CountingMapData(2));
 	}
     
 	/**执行结果：
