@@ -10,6 +10,7 @@ public class simpleController {
 	@RequestMapping("hello2")
 	public String hello() {
 		System.out.println("11111");
+		System.out.println("22222");
 
 		return "helloworld2";
 	}
