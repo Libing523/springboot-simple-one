@@ -11,7 +11,7 @@ public class simpleController {
 	public String hello() {
 		System.out.println("11111");
 		System.out.println("22222");
-		System.out.println("验证冲突");
+		System.out.println("验证冲突1");
 
 		return "helloworld2";
 	}
