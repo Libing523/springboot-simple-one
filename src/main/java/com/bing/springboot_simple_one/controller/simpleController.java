@@ -11,7 +11,7 @@ public class simpleController {
 	public String hello() {
 		System.out.println("11111");
 		System.out.println("22222");
-		System.out.println("合并分支");
+		System.out.println("合并分支2");
 
 		return "helloworld2";
 	}
