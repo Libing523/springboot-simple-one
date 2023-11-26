@@ -12,6 +12,7 @@ public class simpleController {
 		System.out.println("11111");
 		System.out.println("22222");
 		System.out.println("验证冲突1");
+		System.out.println("0001");
 
 		return "helloworld2";
 	}
