@@ -13,6 +13,7 @@ public class simpleController {
 		System.out.println("22222");
 		System.out.println("master 00");
 		System.out.println("test 001");
+		System.out.println("master 02");
 
 
 		return "helloworld2";
