@@ -17,6 +17,8 @@ public class simpleController {
         System.out.println("test002");
         System.out.println("-------master01");
 
+        System.out.println("-------master");
+		System.out.println("-------test");
 
 
 		return "helloworld2";
