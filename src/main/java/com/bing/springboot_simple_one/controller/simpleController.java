@@ -11,6 +11,7 @@ public class simpleController {
 	public String hello() {
 		System.out.println("11111");
 		System.out.println("22222");
+		System.out.println("master 00");
 
 		return "helloworld2";
 	}
